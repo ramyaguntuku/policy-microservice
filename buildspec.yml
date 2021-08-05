@@ -1,4 +1,7 @@
 version: 0.2
+install:
+  runtime-versions:
+  java: corretto11
 phases:
   pre_build:
     commands:
